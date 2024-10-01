@@ -1,0 +1,100 @@
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact section-bg">
+    <div class="container" data-aos-duration="1000" data-aos="fade-up">
+        <header class="section-header">
+            <h2>{{_("contact_us")}}</h2>
+            <p>{{_("contact_us")}}</p>
+        </header>
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7694.996945398213!2d44.19586!3d15.349467!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1603db09f82583e9%3A0x724064d509386e9b!2sBrunette%20Aden!5e0!3m2!1sen!2sus!4v1707788008096!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="row gy-4">
+            <div class="col-lg-6">
+                <div class="row gy-4">
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="bi bi-geo-alt"></i>
+                            <h3>{{_("address")}}</h3>
+                            <p>{{ footer_data.translations__address }}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="bi bi-telephone"></i>
+                            <h3>{{_("Phone")}}</h3>
+                            <p>&#x200E;{{ footer_data.phone1 }}</p>
+                            <p>&#x200E;{{ footer_data.phone2 }}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="bi bi-envelope"></i>
+                            <h3>{{_("Email")}}</h3>
+                            <p>{{ footer_data.email1 }}</p>
+                            <p>{{ footer_data.email2 }}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="bi bi-clock"></i>
+                            <h3>{{_("work_days")}}</h3>
+                            <p>{{ footer_data.translations__work_days }}</p>
+                            <p>{{ footer_data.work_from }} - {{ footer_data.work_to }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <form action="{% url 'home' %}" method="post" class="email-form">
+                    {% csrf_token %}
+                    <div class="row gy-4">
+                        {% if messages %}
+                        {% for message in messages %}
+                        {% if 'success' in message.tags %}
+                        <script>
+                            var mesg = "{{ message }}"
+                            alert(mesg);
+                        </script>
+                        <div class="alert alert-success alert-dismissible fade show mb-0" role="alert">
+                            <strong>{{message}}</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        {% else %}
+                        <script>
+                            var mesg = "{{ message }}"
+                            alert(mesg);
+                        </script>
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                        <div class="col-md-6">
+                            {{form.name}}
+                            {{form.name.errors}}
+                        </div>
+
+                        <div class="col-md-6 ">
+                            {{form.email}}
+                            {{form.email.errors}}
+                        </div>
+
+                        <div class="col-md-12">
+                            {{form.subject}}
+                            {{form.subject.errors}}
+                        </div>
+
+                        <div class="col-md-12">
+                            {{form.message}}
+                            {{form.message.errors}}
+                        </div>
+                        <div class="col-md-12">
+                            {{form.captcha}}
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button type="submit" id="emailForm" class="btn" disabled>{{_('send')}}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section><!-- End Contact Section -->
