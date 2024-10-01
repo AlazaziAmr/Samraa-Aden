@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-01 21:37+0300\n"
+"PO-Revision-Date: 2024-10-01 21:40+0300\n"
+"Last-Translator:   <admin@mail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\Samraa_Aden\settings.py:130
+msgid "Arabic"
+msgstr "عربي"
+
+#: .\Samraa_Aden\settings.py:131
+msgid "English"
+msgstr "English"
+
+#: .\category\apps.py:7 .\category\models.py:35
+msgid "category"
+msgstr "القسم"
+
+#: .\category\models.py:18 .\home\models.py:13
+msgid "page_title"
+msgstr "عنوان الصفحة"
+
+#: .\category\models.py:18 .\home\models.py:13
+msgid "page_title_help_text"
+msgstr "اقصى عدد للحروف 60"
+
+#: .\category\models.py:19 .\home\models.py:14
+msgid "page_description"
+msgstr "وصف الصفحة"
+
+#: .\category\models.py:19 .\home\models.py:14
+msgid "page_description_help_text"
+msgstr "عدد الكلمات المفضل: من 25 إلى 40 كلمة"
+
+#: .\category\models.py:20
+msgid "category_name"
+msgstr "إسم القسم"
+
+#: .\category\models.py:20
+msgid "category_name_help_text"
+msgstr "اقصى عدد للحروف 100"
+
+#: .\category\models.py:21
+msgid "category_description"
+msgstr "وصف القسم"
+
+#: .\category\models.py:21
+msgid "category_description_help_text"
+msgstr "عدد الكلمات المفضل: من 150 إلى 300 كلمة"
+
+#: .\category\models.py:22
+msgid "category_url"
+msgstr "رابط القسم"
+
+#: .\category\models.py:22
+msgid "category_url_help_text"
+msgstr "مثال: قسم-البن"
+
+#: .\category\models.py:24
+msgid "category_image"
+msgstr "صورة القسم"
+
+#: .\category\models.py:25 .\home\models.py:38
+msgid "bg_image"
+msgstr "صورة الغلاف"
+
+#: .\category\models.py:26 .\category\models.py:47 .\home\models.py:44
+msgid "active"
+msgstr "نشط"
+
+#: .\category\models.py:36 .\templates\layout\master.html:164
+msgid "categories"
+msgstr "الأقسام"
+
+#: .\category\models.py:41
+msgid "product_image"
+msgstr "صورة المنتج"
+
+#: .\category\models.py:43
+msgid "product_name"
+msgstr "إسم المنتج"
+
+#: .\category\models.py:43
+msgid "product_name_help_text"
+msgstr "اقصى عدد للحروف 100"
+
+#: .\category\models.py:44
+msgid "product_description"
+msgstr "وصف المنتج"
+
+#: .\category\models.py:44
+msgid "product_description_help_text"
+msgstr "عدد الكلمات المفضل: من 20 إلى 40 كلمة"
+
+#: .\category\models.py:46
+msgid "price"
+msgstr "السعر"
+
+#: .\category\models.py:46
+msgid "product_price_help_text"
+msgstr "أقل قيمة 100 ريال"
+
+#: .\category\models.py:53
+msgid "product"
+msgstr "منتج"
+
+#: .\category\models.py:54
+msgid "products"
+msgstr "المنتجات"
+
+#: .\home\admin.py:9
+msgid "Samra'a Aden Dashboard"
+msgstr "لوحة سمراء عدن"
+
+#: .\home\admin.py:10
+msgid "Samra'a Aden Admin"
+msgstr "أدمن سمراء عدن"
+
+#: .\home\admin.py:28
+msgid "SEO"
+msgstr "تحسين محركات البحث"
+
+#: .\home\admin.py:34
+msgid "cover"
+msgstr "الغلاف"
+
+#: .\home\admin.py:40
+msgid "cards"
+msgstr "البطائق"
+
+#: .\home\admin.py:46 .\home\models.py:20 .\templates\index.html:87
+msgid "about_us"
+msgstr "عن سمراء عدن"
+
+#: .\home\admin.py:54 .\templates\layout\contact.html:5
+#: .\templates\layout\contact.html:6 .\templates\layout\master.html:171
+msgid "contact_us"
+msgstr "إتصل بنا"
+
+#: .\home\apps.py:8 .\templates\layout\master.html:162
+msgid "home"
+msgstr "الرئيسية"
+
+#: .\home\forms.py:8
+msgid "Name"
+msgstr "الإسم"
+
+#: .\home\forms.py:9 .\templates\layout\contact.html:32
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: .\home\forms.py:10
+msgid "Subject"
+msgstr "الموضوع"
+
+#: .\home\forms.py:11
+msgid "Message"
+msgstr "الرسالة"
+
+#: .\home\models.py:15
+msgid "bg_description"
+msgstr "وصف صورة الغلاف"
+
+#: .\home\models.py:15
+msgid "bg_description_help_text"
+msgstr "عدد الكلمات المفضل: من 150 إلى 200 كلمة"
+
+#: .\home\models.py:16
+msgid "card1"
+msgstr "البطاقة 1"
+
+#: .\home\models.py:16 .\home\models.py:17 .\home\models.py:18
+#: .\home\models.py:19
+msgid "cards_help_text"
+msgstr "اقصى عدد للحروف 25"
+
+#: .\home\models.py:17
+msgid "card2"
+msgstr "البطاقة 2"
+
+#: .\home\models.py:18
+msgid "card3"
+msgstr "البطاقة 3"
+
+#: .\home\models.py:19
+msgid "card4"
+msgstr "البطاقة 4"
+
+#: .\home\models.py:20
+msgid "about_us_help_text"
+msgstr "عدد الكلمات المفضل: من 200 إلى 300 كلمة"
+
+#: .\home\models.py:21 .\templates\index.html:94 .\templates\index.html:97
+msgid "our_goal_text"
+msgstr "هدفنا"
+
+#: .\home\models.py:21
+msgid "our_goal_help_text"
+msgstr "عدد الكلمات المفضل: من 50 إلى 70 كلمة"
+
+#: .\home\models.py:22 .\templates\index.html:106 .\templates\index.html:109
+msgid "our_vision_text"
+msgstr "رؤيتنا"
+
+#: .\home\models.py:22
+msgid "our_vision_help_text"
+msgstr "عدد الكلمات المفضل: من 50 إلى 70 كلمة"
+
+#: .\home\models.py:23 .\templates\index.html:118 .\templates\index.html:121
+msgid "our_message_text"
+msgstr "رسالتنا"
+
+#: .\home\models.py:23
+msgid "our_message_help_text"
+msgstr "عدد الكلمات المفضل: من 50 إلى 70 كلمة"
+
+#: .\home\models.py:24
+msgid "about_our_categories"
+msgstr "نص أقسامنا"
+
+#: .\home\models.py:24
+msgid "about_our_categories_help_text"
+msgstr "عدد الكلمات المفضل: من 200 إلى 300 كلمة"
+
+#: .\home\models.py:25 .\home\models.py:58 .\home\models.py:71
+#: .\templates\layout\contact.html:17
+msgid "address"
+msgstr "العنوان"
+
+#: .\home\models.py:25 .\home\models.py:58
+msgid "address_help_text"
+msgstr "اقصى عدد للحروف 100"
+
+#: .\home\models.py:26 .\templates\layout\contact.html:40
+msgid "work_days"
+msgstr "أيام العمل"
+
+#: .\home\models.py:26
+msgid "work_days_help_text"
+msgstr "اقصى عدد للحروف 25"
+
+#: .\home\models.py:28
+msgid "twitter_url"
+msgstr "رابط تويتر"
+
+#: .\home\models.py:29
+msgid "facebook_url"
+msgstr "رابط فيسبوك"
+
+#: .\home\models.py:30
+msgid "instagram_url"
+msgstr "رابط إنستاجرام"
+
+#: .\home\models.py:31
+msgid "youtube_url"
+msgstr "رابط يوتيوب"
+
+#: .\home\models.py:32
+msgid "phone1"
+msgstr "جوال 1"
+
+#: .\home\models.py:32 .\home\models.py:33
+msgid "phone_help_text"
+msgstr "مثال: 777 777 777 967+ أو 555 666 1 967+ "
+
+#: .\home\models.py:33
+msgid "phone2"
+msgstr "جوال 2 (إختياري)"
+
+#: .\home\models.py:34
+msgid "email1"
+msgstr "البريد الإلكتروني 1"
+
+#: .\home\models.py:35
+msgid "email2"
+msgstr "البريد الإلكتروني 2"
+
+#: .\home\models.py:36
+msgid "work_from"
+msgstr "من الساعة"
+
+#: .\home\models.py:37
+msgid "work_to"
+msgstr "إلى الساعة"
+
+#: .\home\models.py:39
+msgid "about_us_bg_image"
+msgstr "صورة غلاف عن سمراء عدن"
+
+#: .\home\models.py:40
+msgid "our_goal_image"
+msgstr "صورة هدفنا"
+
+#: .\home\models.py:41
+msgid "our_vision_image"
+msgstr "صورة رؤيتنا"
+
+#: .\home\models.py:42
+msgid "our_message_image"
+msgstr "صورة رسالتنا"
+
+#: .\home\models.py:43
+msgid "our_categories_image"
+msgstr "صورة أقسامنا"
+
+#: .\home\models.py:51 .\home\models.py:52
+msgid "home_page"
+msgstr "الصفحة الرئيسية"
+
+#: .\home\models.py:57
+msgid "agent_name"
+msgstr "إسم الوكيل"
+
+#: .\home\models.py:57
+msgid "agent_name_help_text"
+msgstr "اقصى عدد للحروف 50"
+
+#: .\home\models.py:59
+msgid "agent_description"
+msgstr "وصف الوكيل"
+
+#: .\home\models.py:59
+msgid "agent_description_help_text"
+msgstr "اقصى عدد للحروف 500"
+
+#: .\home\models.py:61
+msgid "agent_image"
+msgstr "صورة الوكيل"
+
+#: .\home\models.py:65
+msgid "agent"
+msgstr "وكيل"
+
+#: .\home\models.py:66 .\templates\index.html:194
+msgid "agents"
+msgstr "وكلائنا"
+
+#: .\home\models.py:70
+msgid "branch_name"
+msgstr "إسم الفرع"
+
+#: .\home\models.py:70
+msgid "branch_name_help_text"
+msgstr "اقصى عدد للحروف 100"
+
+#: .\home\models.py:71
+msgid "branch_address_help_text"
+msgstr "اقصى عدد للحروف 255"
+
+#: .\home\models.py:73
+msgid "branch_image"
+msgstr "صورة الفرع"
+
+#: .\home\models.py:77
+msgid "branch"
+msgstr "فرع"
+
+#: .\home\models.py:78 .\templates\index.html:220
+msgid "branches"
+msgstr "فروعنا"
+
+#: .\home\views.py:24
+msgid "Your message has been sent. Thank you!"
+msgstr "تم إرسال رسالتك. شكرا لك!"
+
+#: .\home\views.py:27
+msgid "Fail to send, check your data!!"
+msgstr "فشل الإرسال، الرجاء التحقق من البيانات المدخلة!"
+
+#: .\templates\category.html:42
+msgid "YR"
+msgstr "ريال يمني"
+
+#: .\templates\index.html:17 .\templates\layout\master.html:11
+#: .\templates\layout\master.html:15 .\templates\layout\master.html:18
+#: .\templates\layout\master.html:20 .\templates\layout\master.html:204
+msgid "Samra'a Aden"
+msgstr "سمراء عدن"
+
+#: .\templates\index.html:136 .\templates\index.html:141
+msgid "Our Categories"
+msgstr "أقسامنا"
+
+#: .\templates\layout\contact.html:24
+msgid "Phone"
+msgstr "هاتف"
+
+#: .\templates\layout\contact.html:93
+msgid "send"
+msgstr "إرسال"
+
+#: .\templates\layout\master.html:5
+msgid "dir"
+msgstr "rtl"
+
+#: .\templates\layout\master.html:204
+msgid "All rights reserved."
+msgstr "جميع الحقوق محفوظة."
+
+#: .\templates\layout\master.html:207
+msgid "Developed by:"
+msgstr "تطوير:"
+
+#: .\templates\layout\master.html:208
+msgid "Eng. Amr Alazazi"
+msgstr "م. عمرو العزعزي"
+
+#~ msgid "Ammar Albirari"
+#~ msgstr "عمار البراري"
