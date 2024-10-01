@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '******'
+SECRET_KEY = 'django-insecure-+j*eh45=^fegm%s_*yz9cpeb*)n!c837jop@n^sipdam!7kxwx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -95,7 +95,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'samraa_aden',
         'USER': 'postgres',
-        'PASSWORD': '******',
+        'PASSWORD': 'amrohgu.u.d',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -186,14 +186,14 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # reCAPTCHA
-RECAPTCHA_PUBLIC_KEY = '******'
-RECAPTCHA_PRIVATE_KEY = '******'
+RECAPTCHA_PUBLIC_KEY = '6Lez1FkpAAAAACX97KEvC7PKlPkz7V-szEW9l6X9'
+RECAPTCHA_PRIVATE_KEY = '6Lez1FkpAAAAAF-FHJIVzZUNbCFAFtrZr5QGnKb0'
 
 # Main Configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = '******'
-EMAIL_HOST_PASSWORD = '******'
+EMAIL_HOST_USER = 'cc0644acbae66d'
+EMAIL_HOST_PASSWORD = 'c7fa12b08edf61'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
